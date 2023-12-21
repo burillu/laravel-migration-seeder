@@ -27,7 +27,7 @@
 
                     <a class="nav-link {{ Route::currentRouteName() == 'trains' ? 'active' : '' }}"
                         href="{{ route('trains') }}">
-                        Trains
+                        Today-Trains
                     </a>
                 </li>
                 {{-- <li class="nav-item">

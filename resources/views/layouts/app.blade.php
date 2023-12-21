@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel base @yield('title','template')</title>
+    <title>Laravel base @yield('title', 'template')</title>
 
     <!-- Fonts -->
     <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -16,11 +16,14 @@
 </head>
 
 <body>
-@include('partials.header')
-
+    @include('partials.header')
+    <section id="hero">
+        <img src="https://www.zaha-hadid.com/wp-content/uploads/2021/09/ZHA_Vilnius-Connect_render-by-Negativ_low-2.jpg"
+            alt="vilnius station">
+    </section>
     @yield('content')
 
-@include('partials.footer')
+    @include('partials.footer')
 
 </body>
 

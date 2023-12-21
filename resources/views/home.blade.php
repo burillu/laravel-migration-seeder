@@ -7,10 +7,7 @@
 
 
         <div class="container">
-            <section id="hero">
-                <img src="https://www.zaha-hadid.com/wp-content/uploads/2021/09/ZHA_Vilnius-Connect_render-by-Negativ_low-2.jpg"
-                    alt="vilnius station">
-            </section>
+
             <table class="table">
                 <thead>
                     <tr>
