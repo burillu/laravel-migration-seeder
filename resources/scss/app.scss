@@ -9,6 +9,19 @@ $fa-font-path: "../webfonts" !default;
 
 @import '~bootstrap/scss/bootstrap';
 
-h1 {
-    color: $text-color;
+img {
+    width: 100%;
+}
+
+#logo {
+    width: 50px;
+}
+
+.navbar-nav .nav-link.active {
+
+    font-weight: bold;
+    border-bottom: 2px solid $my-color-primary;
+    //color: $my-color-primary;
+
+
 }
